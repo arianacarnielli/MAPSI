@@ -213,13 +213,13 @@ if __name__ == "__main__":
 #    mean2 = data[:,1].mean ()
 #    std1  = data[:,0].std ()
 #    std2  = data[:,1].std ()
-    
+#    
 # les paramètres des 2 normales sont autour de ces moyennes
 #    params = np.array ( [(mean1 - 0.2, mean2 - 1, std1, std2, 0),
 #                         (mean1 + 0.2, mean2 + 1, std1, std2, 0)] )
 #    weights = np.array ( [0.4, 0.6] )
 #    bounds = find_bounds ( data, params )
-    
+#    
 # affichage de la figure
 #    fig = plt.figure ()
 #    ax = fig.add_subplot(111)
