@@ -1,0 +1,18 @@
+digraph asia {
+	"visit_to_Asia?" [label="visit_to_Asia?" fillcolor="#6b85d1" fontcolor="#FFFFFF" style=filled]
+	"smoking?" [label="smoking?" fillcolor="#6b85d1" fontcolor="#FFFFFF" style=filled]
+	"tuberculosis?" [label="tuberculosis?" fillcolor="#6b85d1" fontcolor="#FFFFFF" style=filled]
+	"lung_cancer?" [label="lung_cancer?" fillcolor="#6b85d1" fontcolor="#FFFFFF" style=filled]
+	"bronchitis?" [label="bronchitis?" fillcolor="#6b85d1" fontcolor="#FFFFFF" style=filled]
+	"tuberculos_or_cancer?" [label="tuberculos_or_cancer?" fillcolor="#6b85d1" fontcolor="#FFFFFF" style=filled]
+	"dyspnoea?" [label="dyspnoea?" fillcolor="#6b85d1" fontcolor="#FFFFFF" style=filled]
+	"positive_XraY?" [label="positive_XraY?" fillcolor="#6b85d1" fontcolor="#FFFFFF" style=filled]
+	"smoking?" -> "lung_cancer?"
+	"visit_to_Asia?" -> "lung_cancer?"
+	"smoking?" -> "bronchitis?"
+	"lung_cancer?" -> "tuberculos_or_cancer?"
+	"tuberculosis?" -> "tuberculos_or_cancer?"
+	"bronchitis?" -> "dyspnoea?"
+	"tuberculos_or_cancer?" -> "dyspnoea?"
+	"tuberculos_or_cancer?" -> "positive_XraY?"
+}
