@@ -297,7 +297,7 @@ if __name__ == "__main__":
     plt.xlabel(u'Vérité terrain')
     plt.ylabel(u'Prédiction')
     plt.savefig("mat_conf_lettres.png")
-    #plt.show();
+   #plt.show();
 
 
 
